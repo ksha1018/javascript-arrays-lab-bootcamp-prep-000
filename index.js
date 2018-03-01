@@ -39,10 +39,14 @@ console.log(prependKitten("Gom"));
 console.log(kittens);
 
 function removeLastKitten(){
-  
+  var okittens = kittens.slice(0, kittens.length-1);
+  return okittens;
 }
 
-
+function removeFirstKitten(){
+  var okittens = kittens.slice(1);
+  return okittens;
+}
 
 
 
