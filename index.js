@@ -24,3 +24,10 @@ function destructivelyRemoveFirstKitten(){
 destructivelyRemoveFirstKitten();
 console.log(kittens);
 
+function appendKitten(name){
+  var otherKitten = kittens.push(name);
+  return otherKitten;
+}
+appendKitten("Gom");
+console.log(otherKitten);
+console.log(kittens);
