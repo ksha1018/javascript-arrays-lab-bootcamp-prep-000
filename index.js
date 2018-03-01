@@ -30,3 +30,15 @@ function appendKitten(name){
 }
 console.log(appendKitten("Gom"));
 console.log(kittens);
+
+function prependKitten(name){
+  var okittens = [name, ...kittens];
+  return okittens;
+}
+console.log(prependKitten("Gom"));
+console.log(kittens);
+
+
+
+
+
