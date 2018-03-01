@@ -11,3 +11,11 @@ function destructivelyPrependKitten(name){
 }
 destructivelyPrependKitten("Bob");
 console.log(kittens);
+
+function destructivelyRemoveLastKitten(){
+  kittens.pop();
+}
+destructivelyRemoveLastKitten();
+console.log(kittens);
+
+
