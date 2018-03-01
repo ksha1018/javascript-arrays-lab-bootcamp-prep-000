@@ -38,7 +38,9 @@ function prependKitten(name){
 console.log(prependKitten("Gom"));
 console.log(kittens);
 
-function 
+function removeLastKitten(){
+  
+}
 
 
 
