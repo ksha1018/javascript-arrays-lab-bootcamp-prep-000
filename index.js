@@ -23,3 +23,4 @@ function destructivelyRemoveFirstKitten(){
 }
 destructivelyRemoveFirstKitten();
 console.log(kittens);
+
